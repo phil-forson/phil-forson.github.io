@@ -58,7 +58,7 @@ const Navbar = () => {
 
     const StyledNavImage = styled.img`
     border-radius: 50%;
-    width: 40px;
+    width: 2.7rem;
     `
     return (
         <NavbarBlank>
