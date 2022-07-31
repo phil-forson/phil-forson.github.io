@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledCartHeader = styled.div`
 display: flex;
 justify-content: space-between;
-padding: 0.1rem 1.4rem;
+padding: 0.1rem 0rem;
 height: 23%;
 width: 100%;
 
@@ -11,16 +11,20 @@ div:nth-child(1){
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
+font-size: 20px;
+padding-bottom: 1rem;
 }
 
 div:nth-child(2){
 background-color: #00038C;
 text-align: center;
 color: white;
-border-radius: 5px;
-padding: 0.4rem;
+border-radius: 0.25rem;
+padding: 0.1rem 1rem;
 display: flex;
 margin: 0.4rem;
+height: 2rem;
 justify-content: center;
 align-items: center;
 }
@@ -34,7 +38,7 @@ display: table;
 table, td, th {  
   border: 1px solid #ddd;
   text-align: left;
-  padding-left: 1.8rem;
+  padding: 0.5rem 0rem 0.5rem 1.5rem;
 }
 
 tr {
@@ -42,7 +46,9 @@ tr {
 }
 
 th {
-    font-weight: bold;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 `
 

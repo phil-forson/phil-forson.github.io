@@ -31,7 +31,7 @@ const Navbar = () => {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    border-radius: 19px;
+    border-radius: 1.58rem;
     width: 60%;
     border: 1px solid #00038C;
     padding: 0.4rem 0.9rem;

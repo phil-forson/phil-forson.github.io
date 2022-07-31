@@ -4,7 +4,7 @@ export const Table = styled.div`
     background-color: #FDFDFD;
     border-radius: 6px;
     height: ${({height }) => height};
-    padding: 0.5rem;
+    padding: 1.3rem;
     position: absolute;
     top: calc(8% + 4rem);
     left: 60%;
@@ -20,11 +20,13 @@ border-collapse: collapse;
 table, td, th {  
   border: 1px solid #ddd;
   text-align: left;
-  padding-left: 1.5rem;
+  padding: 0.5rem 0rem 0.5rem 1.5rem;
 }
 
 th {
-    font-weight: bold;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 `

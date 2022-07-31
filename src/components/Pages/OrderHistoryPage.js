@@ -18,11 +18,11 @@ const OrderHistoryPage = () => {
       <ContentGrid>
         <BodyContainer>
           <img src={hacker} />
-            <Table height = "500px">
+            <Table height = "auto">
               <DashboardTableHeader>
-                OrderHistory
+                Purchased Orders
               </DashboardTableHeader>
-              <ConstStyledTable height= "440px">
+              <ConstStyledTable height= "auto">
                 <tr>
                   <th>#</th>
                   <th>Date Of Payment</th>

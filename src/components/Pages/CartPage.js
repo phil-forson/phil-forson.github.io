@@ -20,7 +20,7 @@ const CartPage = () => {
         <ContentGrid>
             <BodyContainer>
                 <img src={hacker} />
-                <Table height = "300px"> 
+                <Table height = "auto"> 
                     <StyledCartHeader>
                         <div>Shopping Cart</div>
                         <div>Buy Now!</div>
